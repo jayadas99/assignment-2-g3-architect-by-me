@@ -205,11 +205,14 @@ font-size: 45px;
     body{
         background-color: aqua;
     }
-    .container,.banner,.text,.closing-para{
+    .container,.banner,.text,.closing-para, .text-container{
         width: 100%;
     }
     nav,nav ul,.sponsors,.statistics-container{
         flex-direction: column;
+    }
+    .banner-container{
+        flex-direction: column-reverse;
     }
     .img-1 > img {
         padding-left: 0;
