@@ -79,9 +79,9 @@ main{
     padding-top: 50px;
 }
 #box-3{
-    grid-column: 3;
+    /* grid-column: 3;
     grid-row: span 2;
-    align-content: center;
+    align-content: center; */
     padding-top: 200px;
 }
 .features-title{
@@ -205,7 +205,7 @@ font-size: 45px;
     body{
         background-color: aqua;
     }
-    .container,.banner,.text{
+    .container,.banner,.text,.closing-para{
         width: 100%;
     }
     nav,nav ul,.sponsors,.statistics-container{
@@ -222,4 +222,12 @@ font-size: 45px;
     .text{
         flex-direction: column;
     }
+    .sponsors{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .closing-para{
+        padding: 0;
+    }
+    
 }
