@@ -74,7 +74,7 @@ main{
 .container{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    grid-template-rows: repeat(2,1fr);
+    /* grid-template-rows: repeat(2,1fr); */
     width: 60%;
     padding-top: 50px;
 }
@@ -141,7 +141,6 @@ font-size: 45px;
     color: #FFFFFF;
     width: 300px;
     height: 200px;
-    text-overflow: ;
     background: #FF900E;
     border-radius: 8px;
     border: none;
@@ -206,7 +205,10 @@ font-size: 45px;
     body{
         background-color: aqua;
     }
-    nav,nav ul{
+    .container,.banner,.text{
+        width: 100%;
+    }
+    nav,nav ul,.sponsors,.statistics-container{
         flex-direction: column;
     }
     .img-1 > img {
@@ -217,3 +219,7 @@ font-size: 45px;
     .container{
         grid-template-columns: repeat(1,1fr);
     }
+    .text{
+        flex-direction: column;
+    }
+}
