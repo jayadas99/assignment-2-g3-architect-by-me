@@ -162,9 +162,7 @@ font-size: 45px;
     display: flex;
     flex-wrap: wrap;
 }
-.photo:hover{
-    background-color: blue;
-}
+
 .gallery-heading{
     text-align: center;
 }
