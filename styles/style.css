@@ -156,10 +156,17 @@ font-size: 45px;
 
 }
 /* end of button section */
+
+/* start of gallery section */
 .gallery{
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
+    display: flex;
+    flex-wrap: wrap;
 }
+.gallery-heading{
+    text-align: center;
+}
+/* end of gallery section */
+
 /* start of fact section */
 .fact{
     display: flex;
@@ -272,6 +279,18 @@ font-size: 45px;
        justify-content: center;
        width: 40%;
     }
+    .gallery{
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 60%;
+        padding: 40px 40px;
+    }
+    .photo{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    } 
     
 }
 
