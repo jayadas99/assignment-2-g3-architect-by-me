@@ -148,6 +148,10 @@ font-size: 45px;
 
 }
 /* end of button section */
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
 /* start of fact section */
 .fact{
     display: flex;
@@ -183,7 +187,7 @@ font-size: 45px;
     transition: 1s ease-in;
 }
 /* end of stats section */
-/* start of colsing para */
+/* start of closing para */
 .closing-para{
     width: 20%;
     text-align: center;
@@ -197,6 +201,12 @@ font-size: 45px;
     display: flex;
     justify-content: space-evenly;
     list-style: none;
+}
+.closing{
+    text-align: center;
+    padding: 100px;
+    background: #FFF4E7;
+    border-radius: 8px;
 }
 
 
@@ -219,7 +229,7 @@ font-size: 45px;
         width:100%
 
     }
-    .container{
+     .container{
         grid-template-columns: repeat(1,1fr);
     }
     .text{
