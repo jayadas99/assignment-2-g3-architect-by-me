@@ -16,6 +16,9 @@ nav {
     justify-content: space-between;
     padding: 20px 120px;
 }
+nav :hover{
+    color: coral;
+}
 nav ul {
     display: flex;
     align-items: center;
@@ -74,15 +77,20 @@ main{
 .container{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    /* grid-template-rows: repeat(2,1fr); */
+    grid-template-rows: repeat(2,1fr);
     width: 60%;
     padding-top: 50px;
+    
+}
+#box-1,#box-2{
+    display: flex;
+    align-items:center ;
 }
 #box-3{
     /* grid-column: 3;
     grid-row: span 2;
     align-content: center; */
-    padding-top: 200px;
+    padding-top: 300px;
 }
 .features-title{
     font-weight: 500;
